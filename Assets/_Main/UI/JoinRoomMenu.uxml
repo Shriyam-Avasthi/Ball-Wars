@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main/UI/USS/Menu.uss?fileID=7433441132597879392&amp;guid=0836128ea7f3d0e42a2204560b9675a8&amp;type=3#Menu" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Main/UI/Sprites/MainMenuBackground.png?fileID=2800000&amp;guid=15f5d9ae86cce894d9347ecb762c9a0b&amp;type=3#MainMenuBackground&apos;); align-items: center; justify-content: center; -unity-slice-left: 20;">
+        <ui:VisualElement name="Container" class="MenuContainer" style="background-color: rgba(255, 255, 255, 0);">
+            <ui:Label display-tooltip-when-elided="true" name="Heading" text="Join Room" class="MenuLabel" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; white-space: nowrap; top: -2%;" />
+            <ui:ListView name="RoomInfoListView" selection-type="Single" fixed-item-height="25" show-border="true" usage-hints="MaskContainer" virtualization-method="DynamicHeight" horizontal-scrolling="false" show-foldout-header="false" show-add-remove-footer="false" reorderable="false" show-bound-collection-size="false" class="MenuListView" />
+            <ui:VisualElement style="width: 100%; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center;">
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="MenuButton" style="flex-shrink: 1; background-color: rgba(0, 0, 0, 0.39);" />
+                <ui:Button text="JoinRoom" display-tooltip-when-elided="true" name="JoinRoomButton" class="MenuButton" style="flex-shrink: 1; visibility: visible; overflow: visible; display: flex; background-color: rgba(0, 0, 0, 0.39);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

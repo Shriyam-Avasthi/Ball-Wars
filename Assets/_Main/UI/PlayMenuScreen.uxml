@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main/UI/USS/Menu.uss?fileID=7433441132597879392&amp;guid=0836128ea7f3d0e42a2204560b9675a8&amp;type=3#Menu" />
+    <ui:VisualElement name="Screen" class="Background">
+        <ui:VisualElement name="Container" class="MenuContainer" style="background-color: rgba(255, 255, 255, 0);">
+            <ui:Label display-tooltip-when-elided="true" name="Heading" text="Join Game" class="MenuLabel" style="left: -15%;" />
+            <ui:TextField label="Player Name :" value="Name" text="Enter Name" password="false" name="PlayerNameField" multiline="false" is-delayed="false" readonly="false" class="MenuTextField MenuTextField2" style="font-size: 14px;" />
+            <ui:VisualElement style="flex-grow: 1; flex-shrink: 0; align-items: center; justify-content: flex-start; width: 100%; padding-top: 2%; left: -15%;">
+                <ui:Button text="Create Room" display-tooltip-when-elided="true" name="CreateRoomButton" class="MenuButton" style="top: 5%;" />
+                <ui:Button text="Join Room" display-tooltip-when-elided="true" name="JoinRoomButton" class="MenuButton" style="top: 5%;" />
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="MenuButton" style="top: 5%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

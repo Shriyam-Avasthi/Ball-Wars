@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main/UI/USS/Menu.uss?fileID=7433441132597879392&amp;guid=0836128ea7f3d0e42a2204560b9675a8&amp;type=3#Menu" />
+    <ui:VisualElement name="Container" style="align-items: center; justify-content: flex-start; width: 100%; overflow: hidden; flex-direction: column; -unity-text-align: middle-center; background-color: rgba(164, 164, 164, 0.78);">
+        <ui:Label text="Name" display-tooltip-when-elided="true" name="PlayerName" class="ListItemLabel" />
+    </ui:VisualElement>
+</ui:UXML>

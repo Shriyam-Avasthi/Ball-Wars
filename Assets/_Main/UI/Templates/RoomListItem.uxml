@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main/UI/USS/Menu.uss?fileID=7433441132597879392&amp;guid=0836128ea7f3d0e42a2204560b9675a8&amp;type=3#Menu" />
+    <ui:VisualElement name="Container" style="align-items: center; justify-content: flex-start; width: 100%; overflow: hidden; flex-direction: row; -unity-text-align: middle-center; background-color: rgba(164, 164, 164, 0.78); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:Label text="Name" display-tooltip-when-elided="true" name="RoomName" class="ListItemLabel" />
+        <ui:VisualElement name="Info" style="flex-direction: row; margin-left: 4px; margin-right: 10px; margin-top: 0; margin-bottom: 0; font-size: 16px;">
+            <ui:Label text="--" display-tooltip-when-elided="true" name="CurrentNoPlayer" class="ListItemLabel" style="color: rgb(204, 43, 93);" />
+            <ui:Label text="/" display-tooltip-when-elided="true" name="Slash" class="ListItemLabel" style="color: rgb(204, 43, 93);" />
+            <ui:Label text="4" display-tooltip-when-elided="true" name="TotalNoPlayers" class="ListItemLabel" style="color: rgb(204, 43, 93);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

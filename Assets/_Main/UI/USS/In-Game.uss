@@ -1,0 +1,21 @@
+.InGameVirtualStick {
+    background-image: url('project://database/Assets/Game%20GUI%20Vol1/Playful/PNG/Forward.png?fileID=2800000&guid=616e65414b8734419bc94481aa4f8be2&type=3#Forward');
+    -unity-background-scale-mode: scale-to-fit;
+    width: 70px;
+    height: 70px;
+}
+
+.InGameScoreListItem {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-font: url('project://database/Assets/Main/UI/Fonts/Bubblegum_Sans/BubblegumSans-Regular.ttf?fileID=12800000&guid=dfe5251eaf4f5ee4b9f2b390ece57de9&type=3#BubblegumSans-Regular');
+    -unity-font-definition: url('project://database/Assets/Main/UI/Fonts/Bubblegum_Sans/BubblegumSans-Regular%20SDF.asset?fileID=11400000&guid=2403d9feadce9064d92bfefe36031350&type=2#BubblegumSans-Regular SDF');
+}

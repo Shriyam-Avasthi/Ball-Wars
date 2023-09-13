@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main/UI/USS/Menu.uss?fileID=7433441132597879392&amp;guid=0836128ea7f3d0e42a2204560b9675a8&amp;type=3#Menu" />
+    <ui:VisualElement name="Screen" class="Background" style="align-items: flex-start; justify-content: center; background-image: url(&apos;project://database/Assets/Main/UI/Sprites/MainMenuBackground.png?fileID=2800000&amp;guid=15f5d9ae86cce894d9347ecb762c9a0b&amp;type=3#MainMenuBackground&apos;); transition-property: all; transition-duration: 0s; transition-timing-function: ease-in-circ; transition-delay: 0s;">
+        <ui:VisualElement name="Container" class="MenuContainer" style="flex-grow: 1; flex-shrink: 0; background-color: rgba(255, 255, 255, 0); align-self: flex-start;">
+            <ui:Label display-tooltip-when-elided="true" name="Logo" style="background-image: url(&apos;project://database/Assets/Main/UI/Sprites/Ball%20wars%20Logo.png?fileID=2800000&amp;guid=22b78775d2ac770409a6c036207df56f&amp;type=3#Ball wars Logo&apos;); white-space: normal; width: 100%; height: 50%; align-items: center; justify-content: center; flex-shrink: 1; -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; margin-bottom: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; margin-left: 0; margin-right: 0; margin-top: 0; -unity-text-align: middle-center; -unity-background-image-tint-color: rgb(255, 255, 255); top: -15px; left: -20%;" />
+            <ui:VisualElement style="width: 100%; align-items: center; justify-content: flex-start; top: -15px; flex-grow: 1; left: -15%;">
+                <ui:TextField picking-mode="Ignore" label="Server IP Adress" value="127.0.0.1" name="IPAddressTextField" class="MenuTextField MenuTextField2" style="font-size: 14px; left: 0;" />
+                <ui:Button text="Play" display-tooltip-when-elided="true" name="PlayButton" class="MenuButton" />
+                <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="MenuButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

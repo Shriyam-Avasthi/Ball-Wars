@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main/UI/USS/Menu.uss?fileID=7433441132597879392&amp;guid=0836128ea7f3d0e42a2204560b9675a8&amp;type=3#Menu" />
+    <ui:VisualElement name="Screen" class="Background">
+        <ui:VisualElement name="Container" class="MenuContainer">
+            <ui:Label display-tooltip-when-elided="true" name="Heading" text="Create Room" class="MenuLabel" style="left: -15%;" />
+            <ui:TextField label="Player Name :" value="Name" text="Enter Room Name" password="false" name="RoomNameField" multiline="false" is-delayed="false" readonly="false" class="MenuTextField" style="flex-shrink: 1; align-items: center; justify-content: center; width: 50%; height: 15%; -unity-font-style: bold; white-space: nowrap; -unity-text-align: middle-center; font-size: 15%; overflow: visible; flex-wrap: nowrap; -unity-background-scale-mode: stretch-to-fill; flex-direction: column; color: rgb(255, 165, 165); -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; left: -15%;" />
+            <ui:VisualElement name="Buttons" style="flex-grow: 1; flex-shrink: 0; align-items: center; width: 100%; left: -15%;">
+                <ui:Button text="Create Room" display-tooltip-when-elided="true" name="CreateRoomButton" class="MenuButton" style="top: 5%;" />
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="MenuButton" style="top: 5%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
